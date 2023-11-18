@@ -5,7 +5,7 @@ import PricingCard from "../Components/PricingCard.js";
 function PricingDetails() {
 const data = [{
     plan :"Free",
-    price:"0",
+    price:"1",
     users:"Single User",
     storage:"5GB Storage",
     publicprojects:"Unlimited Public Projects",
