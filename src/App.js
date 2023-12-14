@@ -1,18 +1,17 @@
-
 import React from "react";
-import {CounterPage} from "./Pages/Counter";
-import PricingDetails from "./Pages/PricingDetails";
 
+import Products from "./Pages/Products";
 
 function App() {
-  const page = "pricing"
-  return( 
-  <div className="App">
-    {
-      page === "pricing" ? <PricingDetails/>: <CounterPage/> 
-    }
    
-  </div> 
-)}
+  return(
+    <div className="App">
+< Products /> 
+</div>
+)}  
 
 export default App;
+
+//<div className="container">Home</div>
+//<div className="container">Home1</div>
+//<div className="container">Home2</div>
