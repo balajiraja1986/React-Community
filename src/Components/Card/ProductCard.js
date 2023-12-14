@@ -30,7 +30,7 @@ export default function ProductCard({
               <div>
                 <p style={{ textAlign: 'start' }}>
                   <span className="text-muted fw-bolder text-decoration-line-through">₹{product.actualPrice}</span>
-                  <span className="text-muted fw-bolder">₹{product.discountedPrice}</span>
+                  <span className="text-muted fw-bolder">₹{product.disountedPrice}</span>
                 </p>
               </div>
             )}
